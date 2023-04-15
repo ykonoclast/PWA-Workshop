@@ -1,6 +1,6 @@
 
 const CACHE_NAME = "V4";
-const STATIC_CACHE_URLS = ["/sweaterify/", "/sweaterify/styles.css", "/sweaterify/scripts.js"];
+const STATIC_CACHE_URLS = ["/PWA-Workshop/", "/PWA-Workshop/styles.css", "/PWA-Workshop/scripts.js"];
 
 self.addEventListener("install", event => {
 	self.skipWaiting();
